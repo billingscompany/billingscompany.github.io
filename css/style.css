@@ -1143,4 +1143,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   #contact #google-map {
     margin-top: 20px;
   }
+
+  #header {
+    padding: 20px 0;
+    height: 74px;
+  }
+
+  #header #logo h1 {
+    font-size: 24px;
+  }
+
+  #header #logo img {
+    max-height: 20px;
+  }
 }
