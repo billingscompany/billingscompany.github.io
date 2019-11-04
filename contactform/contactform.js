@@ -100,12 +100,13 @@ jQuery(document).ready(function ($) {
       data: str,
       success: function (msg) {
         // alert(msg);
-        console.log("THIS POINT")
         if (msg == 'OK') {
+          console.log("OK")
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
         } else {
+          console.log("error")
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg);
