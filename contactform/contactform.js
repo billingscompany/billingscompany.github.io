@@ -92,9 +92,10 @@ jQuery(document).ready(function ($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if (!action) {
-      action = 'contactform/contactform.php';
+      action = './contactform/contactform.php';
     }
     $.ajax({
+
       type: "POST",
       url: action,
       data: str,
