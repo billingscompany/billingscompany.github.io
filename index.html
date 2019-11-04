@@ -366,7 +366,7 @@
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
-          <form action="" method="post" role="form" class="contactForm">
+          <form action="https://formspree.io/mwkednpv" method="POST" role="form" class="contactForm">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
@@ -389,6 +389,7 @@
                 data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
             </div>
+            <input type="hidden" name="_next" value="https://billingscompany.com/thankyou.html" />
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
         </div>
@@ -425,7 +426,7 @@
   <script src="lib/sticky/sticky.js"></script>
 
   <!-- Contact Form JavaScript File -->
-  <script src="./contactform/contactform.js"></script>
+  <!-- <script src="./contactform/contactform.js"></script> -->
 
   <!-- Template Main Javascript File -->
   <script src="./js/main.js"></script>
