@@ -100,6 +100,8 @@ jQuery(document).ready(function ($) {
       url: action,
       data: str,
       success: function (msg) {
+        console.log(action)
+        console.log("TEST")
         // alert(msg);
         if (msg == 'OK') {
           console.log("OK")
