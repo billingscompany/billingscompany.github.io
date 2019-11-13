@@ -1156,4 +1156,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #header #logo img {
     max-height: 20px;
   }
+
+  #partners img {
+    max-width: 250px;
+    margin-bottom: 25px;
+  }
 }
